@@ -7,10 +7,42 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "lsp": {
+    "yaml-language-server": {
+      "settings": {
+        "yaml": {
+          "schemaStore": {
+            "enable": true, // Ensures schemas from the public store are used by default
+          },
+          "schemas": {
+            "kubernetes": ["/*.yaml"],
+          },
+        },
+      },
+    },
+  },
+  "tabs": {
+    "file_icons": true,
+  },
+  "base_keymap": "VSCode",
+  "gutter": {
+    "min_line_number_digits": 0,
+  },
+  "minimap": {
+    "show": "auto",
+  },
+  "terminal": {
+    "shell": {
+      "program": "fish",
+    },
+  },
+  "title_bar": {
+    "show_branch_icon": true,
+  },
   "git": {
     "inline_blame": {
-      "enabled": false
-    }
+      "enabled": false,
+    },
   },
   "session": {
     "trust_all_worktrees": true,
