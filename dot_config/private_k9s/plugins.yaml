@@ -1,0 +1,42 @@
+plugins:
+  debug:
+    shortCut: Shift-D
+    description: Debug
+    dangerous: true
+    scopes:
+      - containers
+    command: kubectl
+    background: false
+    confirm: true
+    args:
+      - debug
+      - -it
+      - --context
+      - $CONTEXT
+      - -n
+      - $NAMESPACE
+      - $POD
+      - --target
+      - $NAME
+      - --image=nicolaka/netshoot:v0.15
+      - --profile=sysadmin
+      - --share-processes
+      - --
+      - bash
+  watch-events:
+    shortCut: Shift-E
+    confirm: false
+    description: Watch Events
+    scopes:
+      - all
+    command: kubectl
+    background: false
+    args:
+      - events
+      - --context
+      - $CONTEXT
+      - --namespace
+      - $NAMESPACE
+      - --for
+      - $RESOURCE_NAME/$NAME
+      - --watch
