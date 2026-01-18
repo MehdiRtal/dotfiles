@@ -7,12 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "favorite_models": [],
+    "default_profile": "ask",
+    "model_parameters": []
+  },
   "lsp": {
     "yaml-language-server": {
       "settings": {
         "yaml": {
           "schemaStore": {
-            "enable": true, // Ensures schemas from the public store are used by default
+            "enable": true,
           },
           "schemas": {
             "kubernetes": ["/*.yaml"],
