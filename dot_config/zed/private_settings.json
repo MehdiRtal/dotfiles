@@ -20,7 +20,7 @@
       "model": "claude-haiku-4.5",
     },
     "favorite_models": [],
-    "default_profile": "ask",
+    "default_profile": "write",
     "model_parameters": [],
   },
   "tabs": {
