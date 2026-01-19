@@ -2,8 +2,6 @@
 # ~/.bash_profile
 #
 
-export EDITOR="nano"
-
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 if [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]]; then
