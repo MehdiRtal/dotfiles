@@ -7,6 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "buffer_font_size": 13.0,
+  "buffer_font_family": "JetBrains Mono",
   "languages": {
     "Python": {
       "language_servers": ["ty"],
