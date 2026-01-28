@@ -1,7 +1,7 @@
 if status is-interactive
     set -g fish_greeting
     abbr -a ls lsd
-    abbr -a docker podman
+    set -gx PATH $PATH $HOME/.krew/bin
     starship init fish | source
     fzf --fish | source
 end
