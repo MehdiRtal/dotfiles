@@ -7,6 +7,42 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "project_panel": {
+    "hide_root": true,
+    "indent_size": 12.0,
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+  },
+  "colorize_brackets": true,
+  "auto_update": false,
+  "toolbar": {
+    "quick_actions": false,
+    "breadcrumbs": false,
+  },
+  "sticky_scroll": {
+    "enabled": true,
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "agent_servers": {
+    "github-copilot": {
+      "type": "registry",
+    },
+  },
+  "context_servers": {
+    "mcp-server-context7": {
+      "enabled": true,
+      "settings": {
+        "context7_api_key": "ctx7sk-c3ec763a-5ed8-4220-a162-d9bf087726f6",
+      },
+    },
+  },
+  "features": {
+    "edit_prediction_provider": "copilot",
+  },
   "buffer_font_size": 13.0,
   "buffer_font_family": "JetBrains Mono",
   "languages": {
@@ -15,15 +51,18 @@
     },
   },
   "agent": {
+    "show_turn_stats": true,
+    "always_allow_tool_actions": true,
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-haiku-4.5",
+      "model": "gemini-3-flash-preview",
     },
     "favorite_models": [],
-    "default_profile": "write",
+    "default_profile": "ask",
     "model_parameters": [],
   },
   "tabs": {
+    "git_status": true,
     "file_icons": true,
   },
   "base_keymap": "VSCode",
@@ -31,15 +70,18 @@
     "min_line_number_digits": 0,
   },
   "minimap": {
+    "max_width_columns": 70,
     "show": "auto",
   },
   "terminal": {
+    "toolbar": {},
+    "font_family": "FiraCode Nerd Font",
     "shell": {
       "program": "fish",
     },
   },
   "title_bar": {
-    "show_branch_icon": true,
+    "show_branch_icon": true
   },
   "git": {
     "inline_blame": {
