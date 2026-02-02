@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "inline_code_actions": false,
   "project_panel": {
     "hide_root": true,
     "indent_size": 12.0,
