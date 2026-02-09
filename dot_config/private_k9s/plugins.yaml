@@ -1,5 +1,5 @@
 plugins:
-  debug:
+  debug-container:
     shortCut: Shift-D
     description: Debug
     dangerous: true
@@ -18,9 +18,30 @@ plugins:
       - $POD
       - --target
       - $NAME
-      - --image=nicolaka/netshoot:v0.15
+      - --image=nicolaka/netshoot:latest
       - --profile=sysadmin
       - --share-processes
+      - --
+      - bash
+  debug-node:
+    shortCut: Shift-D
+    description: Debug
+    dangerous: true
+    scopes:
+      - nodes
+    command: kubectl
+    background: false
+    confirm: true
+    args:
+      - debug
+      - -it
+      - --context
+      - $CONTEXT
+      - -n
+      - kube-system
+      - node/$NAME
+      - --image=nicolaka/netshoot:latest
+      - --profile=sysadmin
       - --
       - bash
   watch-events:
@@ -35,7 +56,7 @@ plugins:
       - events
       - --context
       - $CONTEXT
-      - --namespace
+      - -n
       - $NAMESPACE
       - --for
       - $RESOURCE_NAME/$NAME
