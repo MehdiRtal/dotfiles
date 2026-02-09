@@ -7,6 +7,7 @@ if status is-interactive
     direnv hook fish | source
     abbr -a k kubectl
     abbr -a nano fresh
+    abbr -a dig drill
 end
 
 function add_newline --on-event fish_postexec
