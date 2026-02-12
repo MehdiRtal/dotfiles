@@ -43,3 +43,6 @@ packages:
   - git-credential-manager-bin
   - chromium
   - chromium-widevine
+  - code
+  - code-features
+  - code-marketplace
