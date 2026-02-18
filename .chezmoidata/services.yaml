@@ -1,0 +1,5 @@
+services:
+  - docker.socket
+  - virtqemud.socket
+  - virtstoraged.socket
+  - virtnetworkd.socket

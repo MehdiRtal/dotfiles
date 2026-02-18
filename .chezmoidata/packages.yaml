@@ -13,7 +13,7 @@ packages:
   - direnv
   - solaar
   - netbird
-  - fresh-editor
+  - micro
   - ttf-jetbrains-mono
   - ttf-firacode-nerd
   - jq

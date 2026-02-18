@@ -6,7 +6,7 @@ if status is-interactive
     fzf --fish | source
     direnv hook fish | source
     abbr -a k kubectl
-    abbr -a nano fresh
+    abbr -a nano micro
     abbr -a dig drill
 end
 
