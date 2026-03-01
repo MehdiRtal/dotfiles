@@ -13,6 +13,7 @@ packages:
   - direnv
   - solaar
   - netbird
+  - tailscale
   - micro
   - ttf-jetbrains-mono
   - ttf-firacode-nerd
@@ -24,6 +25,7 @@ packages:
   - docker-compose
   - uv
   - k9s
+  - sops
   - aws-cli
   - kubectl
   - krew
@@ -46,3 +48,4 @@ packages:
   - code
   - code-features
   - code-marketplace
+  - github-copilot-cli
