@@ -5,8 +5,13 @@ fish_add_path $HOME/.krew/bin
 if status is-interactive
     fzf --fish | source
     direnv hook fish | source
+    zoxide init fish | source
+    abbr -a cd z
+    abbr -a cat bat
+    abbr -a ls eza
     abbr -a k kubectl
     abbr -a nano micro
+    abbr -a npx bunx
     abbr -a dig drill
 end
 

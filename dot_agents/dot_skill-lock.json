@@ -1,0 +1,70 @@
+{
+  "version": 3,
+  "skills": {
+    "siderolabs": {
+      "source": "docs.siderolabs.com",
+      "sourceType": "well-known",
+      "sourceUrl": "https://docs.siderolabs.com/.well-known/skills/siderolabs/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-02-28T19:41:45.487Z",
+      "updatedAt": "2026-02-28T19:41:45.487Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "c2f31172b6f256272305a5e6e7228b258446899f",
+      "installedAt": "2026-02-28T19:41:52.856Z",
+      "updatedAt": "2026-02-28T19:41:52.856Z"
+    },
+    "terraform-style-guide": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "terraform/code-generation/skills/terraform-style-guide/SKILL.md",
+      "skillFolderHash": "41487ea35027d0ca9930aed05d16840209e0a181",
+      "installedAt": "2026-02-28T19:54:36.197Z",
+      "updatedAt": "2026-02-28T19:54:36.197Z"
+    },
+    "terraform-test": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "terraform/code-generation/skills/terraform-test/SKILL.md",
+      "skillFolderHash": "4b296f72fefb4891ec985cd7f459599e269301e6",
+      "installedAt": "2026-02-28T19:54:36.250Z",
+      "updatedAt": "2026-02-28T19:54:36.250Z"
+    },
+    "refactor-module": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "terraform/module-generation/skills/refactor-module/SKILL.md",
+      "skillFolderHash": "f0abaa84ffa8642ee10bac6b6c1e7c32b72461f2",
+      "installedAt": "2026-02-28T19:54:36.304Z",
+      "updatedAt": "2026-02-28T19:54:36.304Z"
+    },
+    "terraform-stacks": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "terraform/module-generation/skills/terraform-stacks/SKILL.md",
+      "skillFolderHash": "fe0a231fee7958eead13cd9562fbe530b6f568a0",
+      "installedAt": "2026-02-28T19:54:36.356Z",
+      "updatedAt": "2026-02-28T19:54:36.356Z"
+    },
+    "fastapi": {
+      "source": "fastapi/fastapi",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fastapi/fastapi.git",
+      "skillPath": "fastapi/.agents/skills/fastapi/SKILL.md",
+      "skillFolderHash": "4e09ed8eed9f708cbc1c02f8e08c4d12c6fe6866",
+      "installedAt": "2026-03-01T11:36:13.608Z",
+      "updatedAt": "2026-03-01T11:36:13.608Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  }
+}

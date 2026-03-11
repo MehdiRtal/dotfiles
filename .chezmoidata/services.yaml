@@ -3,3 +3,4 @@ services:
   - virtqemud.socket
   - virtstoraged.socket
   - virtnetworkd.socket
+  - tailscaled

@@ -10,9 +10,9 @@ packages:
   - ldns
   - man-db
   - sshfs
+  - rclone
   - direnv
   - solaar
-  - netbird
   - tailscale
   - micro
   - ttf-jetbrains-mono
@@ -33,7 +33,6 @@ packages:
   - helm
   - talosctl
   - kustomize
-  - terragrunt
   - terraform
   - bun
   - qemu-desktop
@@ -41,7 +40,6 @@ packages:
   - virt-manager
   - dnsmasq
   - fastfetch
-  - zed
   - git-credential-manager-bin
   - chromium
   - chromium-widevine
@@ -49,3 +47,6 @@ packages:
   - code-features
   - code-marketplace
   - github-copilot-cli
+  - zoxide
+  - bat
+  - eza

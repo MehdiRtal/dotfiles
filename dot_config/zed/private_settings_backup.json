@@ -53,11 +53,9 @@
     },
   },
   "agent": {
-    "tool_permissions": {
-      "default": "allow"
-    },
     "dock": "bottom",
     "show_turn_stats": true,
+    "always_allow_tool_actions": true,
     "default_model": {
       "provider": "copilot_chat",
       "model": "gemini-3-flash-preview",
