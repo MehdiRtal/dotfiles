@@ -62,6 +62,42 @@
       "skillFolderHash": "4e09ed8eed9f708cbc1c02f8e08c4d12c6fe6866",
       "installedAt": "2026-03-01T11:36:13.608Z",
       "updatedAt": "2026-03-01T11:36:13.608Z"
+    },
+    "terraform-diagrams": {
+      "source": "eraserlabs/eraser-io",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/eraserlabs/eraser-io.git",
+      "skillPath": "skills/terraform-diagrams/SKILL.md",
+      "skillFolderHash": "2976bf165f0ae55cd5c4ebb6050253f62dda069e",
+      "installedAt": "2026-03-17T18:32:42.426Z",
+      "updatedAt": "2026-03-17T18:35:19.056Z"
+    },
+    "azure-diagrams": {
+      "source": "eraserlabs/eraser-io",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/eraserlabs/eraser-io.git",
+      "skillPath": "skills/azure-diagrams/SKILL.md",
+      "skillFolderHash": "92aa722d5f5a0fe86c4b2f7da55613884f35a9af",
+      "installedAt": "2026-03-17T18:32:42.480Z",
+      "updatedAt": "2026-03-17T18:35:19.000Z"
+    },
+    "aws-diagrams": {
+      "source": "eraserlabs/eraser-io",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/eraserlabs/eraser-io.git",
+      "skillPath": "skills/aws-diagrams/SKILL.md",
+      "skillFolderHash": "df5fdec2a3b7bb1efe4703e1ba8f66e7a6ac040b",
+      "installedAt": "2026-03-17T18:32:42.534Z",
+      "updatedAt": "2026-03-17T18:35:18.946Z"
+    },
+    "eraser-diagrams": {
+      "source": "eraserlabs/eraser-io",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/eraserlabs/eraser-io.git",
+      "skillPath": "skills/eraser-diagrams/SKILL.md",
+      "skillFolderHash": "a157f557a18627774250023cf7030ab7f6b2c5fe",
+      "installedAt": "2026-03-17T18:32:42.587Z",
+      "updatedAt": "2026-03-17T18:35:19.110Z"
     }
   },
   "dismissed": {
