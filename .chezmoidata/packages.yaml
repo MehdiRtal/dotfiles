@@ -50,3 +50,5 @@ packages:
   - zoxide
   - bat
   - eza
+  - openshift-client-bin
+  - crc-bin
