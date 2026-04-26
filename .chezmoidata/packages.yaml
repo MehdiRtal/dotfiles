@@ -8,6 +8,7 @@ packages:
   - btop
   - ldns
   - man-db
+  - tealdeer
   - sshfs
   - rclone
   - direnv
@@ -48,5 +49,6 @@ packages:
   - github-copilot-cli
   - bat
   - eza
+  - git-delta
   - openshift-client-bin
   - crc-bin
