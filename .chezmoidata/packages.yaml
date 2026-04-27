@@ -14,7 +14,7 @@ packages:
   - direnv
   - solaar
   - tailscale
-  - fresh
+  - fresh-editor
   - ttf-jetbrains-mono
   - ttf-firacode-nerd
   - jq
@@ -22,6 +22,7 @@ packages:
   - fish
   - just
   - docker
+  - docker-buildx
   - docker-compose
   - uv
   - k9s
