@@ -19,14 +19,14 @@
     "dock": "left",
   },
   "cli_default_open_behavior": "new_window",
-  "bottom_dock_layout": "full",
+  // "bottom_dock_layout": "full",
   "edit_predictions": {
     "provider": "zed",
   },
   "inline_code_actions": false,
   "project_panel": {
     "dock": "left",
-    "indent_size": 12.0,
+    "indent_size": 14.0,
   },
   "tab_bar": {
     "show_nav_history_buttons": false,
@@ -45,6 +45,9 @@
     "metrics": false,
   },
   "agent_servers": {
+    "gemini": {
+      "type": "registry",
+    },
     "github-copilot": {
       "type": "registry",
     },
@@ -65,6 +68,9 @@
     },
   },
   "agent": {
+    "sidebar_side": "right",
+    "max_content_width": 1000.0,
+    "limit_content_width": true,
     "tool_permissions": {
       "default": "allow",
     },
@@ -76,7 +82,7 @@
       "model": "claude-haiku-4-5",
     },
     "favorite_models": [],
-    "default_profile": "ask",
+    "default_profile": "write",
     "model_parameters": [],
   },
   "tabs": {
@@ -87,17 +93,16 @@
     "min_line_number_digits": 0,
   },
   "minimap": {
+    "thumb": "hover",
     "max_width_columns": 60,
     "show": "auto",
   },
   "terminal": {
-    "toolbar": {},
     "font_family": "FiraCode Nerd Font",
     "shell": {
       "program": "fish",
     },
   },
-  "title_bar": {},
   "git": {
     "inline_blame": {
       "enabled": false,
