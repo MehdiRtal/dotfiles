@@ -8,7 +8,7 @@ if status is-interactive
     abbr -a cat bat
     abbr -a ls eza
     abbr -a k kubectl
-    abbr -a nano micro
+    abbr -a nano fresh
     abbr -a npx bunx
     abbr -a dig drill
 end
