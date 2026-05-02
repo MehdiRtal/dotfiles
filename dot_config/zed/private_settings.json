@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "semantic_tokens": "combined",
   "collaboration_panel": {
     "default_width": 300.0,
     "dock": "left",
@@ -19,7 +20,7 @@
     "dock": "left",
   },
   "cli_default_open_behavior": "new_window",
-  // "bottom_dock_layout": "full",
+  "bottom_dock_layout": "full",
   "edit_predictions": {
     "provider": "zed",
   },
@@ -35,7 +36,6 @@
   "auto_update": false,
   "toolbar": {
     "quick_actions": false,
-    "breadcrumbs": false,
   },
   "sticky_scroll": {
     "enabled": true,
@@ -45,6 +45,12 @@
     "metrics": false,
   },
   "agent_servers": {
+    "qwen-code": {
+      "type": "registry",
+    },
+    "github-copilot-cli": {
+      "type": "registry",
+    },
     "gemini": {
       "type": "registry",
     },
@@ -56,7 +62,7 @@
   "buffer_font_family": "JetBrains Mono",
   "languages": {
     "Python": {
-      "language_servers": ["ty"],
+      "language_servers": ["ty", "ruff"],
       "code_actions_on_format": {
         "source.organizeImports.ruff": true,
       },
@@ -66,8 +72,13 @@
         },
       },
     },
+    "YAML": {
+      "formatter": "language_server",
+    },
   },
   "agent": {
+    "thinking_display": "always_collapsed",
+    "enable_feedback": false,
     "sidebar_side": "right",
     "max_content_width": 1000.0,
     "limit_content_width": true,
@@ -111,9 +122,5 @@
   "session": {
     "trust_all_worktrees": true,
   },
-  "theme": {
-    "mode": "dark",
-    "light": "One Light",
-    "dark": "VSCode Dark Modern",
-  },
+  "theme": "VSCode Dark Modern",
 }
