@@ -14,7 +14,7 @@ packages:
   - direnv
   - solaar
   - tailscale
-  - fresh-editor
+  - micro
   - ttf-jetbrains-mono
   - ttf-firacode-nerd
   - jq
