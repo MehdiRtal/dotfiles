@@ -30,7 +30,6 @@ packages:
   - aws-cli
   - kubectl
   - krew
-  - minikube
   - helm
   - talosctl
   - kustomize
@@ -44,12 +43,9 @@ packages:
   - git-credential-manager-bin
   - chromium
   - chromium-widevine
-  - code
-  - code-features
-  - code-marketplace
-  - github-copilot-cli
   - bat
   - eza
   - git-delta
+  - rancher-k3d-bin
   - openshift-client-bin
   - crc-bin
