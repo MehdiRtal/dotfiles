@@ -49,3 +49,6 @@ packages:
   - rancher-k3d-bin
   - openshift-client-bin
   - crc-bin
+  - gopass
+  - gopass-jsonapi
+  - age
