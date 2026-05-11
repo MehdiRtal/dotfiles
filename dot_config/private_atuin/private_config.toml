@@ -2,9 +2,9 @@ enter_accept = true
 show_help = false
 show_tabs = false
 show_preview = false
+show_numeric_shortcuts = false
 inline_height = 30
 search_mode = "daemon-fuzzy"
-filter_mode_shell_up_key_binding = "session"
 
 [daemon]
 enabled = true
