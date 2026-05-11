@@ -3,7 +3,7 @@ set -gx VIRTUAL_ENV_DISABLE_PROMPT 1
 fish_add_path $HOME/.krew/bin
 
 if status is-interactive
-    atuin init fish | source
+    atuin init fish --disable-up-arrow | source
     direnv hook fish | source
     abbr -a cat bat
     abbr -a ls eza
