@@ -1,0 +1,11 @@
+[settings]
+idiomatic_version_file_enable_tools = ["terraform", "python"]
+
+[tools]
+bun = "latest"
+krew = "latest"
+kubectl = "latest"
+terraform = "latest"
+uv = "latest"
+helm = "latest"
+kustomize = "latest"

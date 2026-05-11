@@ -24,17 +24,10 @@ packages:
   - docker
   - docker-buildx
   - docker-compose
-  - uv
   - k9s
   - sops
   - aws-cli
-  - kubectl
-  - krew
-  - helm
   - talosctl
-  - kustomize
-  - terraform
-  - bun
   - qemu-desktop
   - libvirt
   - virt-manager
@@ -54,3 +47,5 @@ packages:
   - gopass-jsonapi
   - age
   - wl-clipboard
+  - mise
+  - usage
