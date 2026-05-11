@@ -9,3 +9,8 @@ terraform = "latest"
 uv = "latest"
 helm = "latest"
 kustomize = "latest"
+talosctl = "latest"
+aws-cli = { version = "latest", symlink_bins = "true" }
+oc = "latest"
+k9s = "latest"
+k3d = "latest"
