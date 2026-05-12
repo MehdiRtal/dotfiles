@@ -10,7 +10,6 @@ uv = "latest"
 helm = "latest"
 kustomize = "latest"
 talosctl = "latest"
-aws-cli = { version = "latest", symlink_bins = "true" }
 oc = "latest"
-k9s = "latest"
-k3d = "latest"
+azure-cli = { version = "latest", uvx_args = "--prerelease=allow" }
+aws-cli = { version = "latest", symlink_bins = "true" }
