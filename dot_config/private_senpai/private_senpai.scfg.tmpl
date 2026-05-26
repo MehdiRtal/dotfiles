@@ -1,3 +1,3 @@
 address "irctoday.com"
 nickname "Sackuro"
-password {{ gopass "websites/irctoday.com/Sackuro" | quote }}
+password {{ (rbw "irctoday.com").data.password | quote }}

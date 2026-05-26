@@ -34,12 +34,10 @@ packages:
   - eza
   - git-delta
   - atuin
-  - gopass
-  - gopass-jsonapi
-  - age
+  - rbw
   - wl-clipboard
-  - mise
-  - usage
+  - mise-bin
   - k9s
   - rancher-k3d-bin
   - crc-bin
+  - zed-preview-bin
