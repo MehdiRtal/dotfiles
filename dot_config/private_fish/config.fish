@@ -5,6 +5,7 @@ fish_add_path $HOME/.krew/bin
 if status is-interactive
     atuin init fish --disable-up-arrow | source
     mise activate fish | source
+    pitchfork activate fish | source
     abbr -a cat bat
     abbr -a ls eza
     abbr -a k kubectl
