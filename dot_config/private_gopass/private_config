@@ -1,6 +1,6 @@
 [mounts]
 	path = /home/mehdi/.local/share/gopass/stores/root
 [recipients]
-	hash = e9b10d0ae8638228bffa243a1ce0353fc319c4432dcf152a0cb4dd50c462aa90
+	hash = 81c85f2bf62a11a3557ad550b094279ad3a6bcc2bb40aa7e145f615fe31739d3
 [age]
-	agent-enabled = true
+	usekeychain = true
