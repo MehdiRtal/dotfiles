@@ -13,3 +13,6 @@ talosctl = "latest"
 oc = "latest"
 azure-cli = { version = "latest", uvx_args = "--prerelease=allow" }
 aws-cli = { version = "latest", symlink_bins = "true" }
+pitchfork = "latest"
+hk = "latest"
+usage = "latest"
