@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mise upgrade
+mise install
