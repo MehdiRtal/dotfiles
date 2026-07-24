@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Check Point VPN (SNX-RS)
+Comment=Autostart Check Point VPN GUI client
+Exec=snx-rs-gui
+Icon=network-vpn
+Terminal=false
+Categories=Network;VPN;
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-after=panel

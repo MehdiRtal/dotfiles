@@ -3,6 +3,8 @@ packages:
   - okular
   - haruna
   - gwenview
+  - drawy
+  - featherpad
   - kdeconnect
   - yakuake
   - btop
@@ -12,6 +14,7 @@ packages:
   - sshfs
   - rclone
   - solaar
+  - onlyoffice
   - tailscale
   - micro
   - ttf-jetbrains-mono
@@ -19,6 +22,7 @@ packages:
   - jq
   - fzf
   - fish
+  - fisher
   - docker
   - docker-buildx
   - docker-compose
@@ -28,16 +32,21 @@ packages:
   - dnsmasq
   - fastfetch
   - git-credential-manager-bin
-  - chromium
-  - chromium-widevine
+  - firefox
   - bat
   - eza
   - git-delta
   - atuin
   - rbw
+  - spotifyd
   - wl-clipboard
   - mise-bin
   - k9s
   - rancher-k3d-bin
   - crc-bin
   - zed-preview-bin
+  - traur-bin
+  - lutris
+  - senpai
+  - pcsc-tools
+  - yubikey-manager
