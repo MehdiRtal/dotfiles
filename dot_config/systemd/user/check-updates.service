@@ -1,0 +1,6 @@
+[Unit]
+Description=Check for package updates
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash -c '((n=$(paru -Qu 2>/dev/null | wc -l))) && notify-send "Updates Available" "$n package(s) ready"'

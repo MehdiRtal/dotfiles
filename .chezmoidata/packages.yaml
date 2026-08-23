@@ -40,13 +40,16 @@ packages:
   - rbw
   - spotifyd
   - wl-clipboard
-  - mise-bin
-  - k9s
+  - mise
   - rancher-k3d-bin
   - crc-bin
   - zed-preview-bin
   - traur-bin
   - lutris
   - senpai
-  - pcsc-tools
+  - opensck
   - yubikey-manager
+  - ventoy-bin
+  - rustdesk-bin
+  - qrca
+  - reflector
