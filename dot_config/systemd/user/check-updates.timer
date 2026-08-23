@@ -1,0 +1,10 @@
+[Unit]
+Description=Run check-updates daily & on boot
+
+[Timer]
+OnStartupSec=1min
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target
