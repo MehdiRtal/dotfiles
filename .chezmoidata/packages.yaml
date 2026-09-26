@@ -53,3 +53,4 @@ packages:
   - rustdesk-bin
   - qrca
   - reflector
+  - logrotate
