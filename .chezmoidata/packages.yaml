@@ -41,13 +41,11 @@ packages:
   - spotifyd
   - wl-clipboard
   - mise
-  - rancher-k3d-bin
-  - crc-bin
-  - zed-preview-bin
+  - zed
   - traur-bin
   - lutris
   - senpai
-  - opensck
+  - opensc
   - yubikey-manager
   - ventoy-bin
   - rustdesk-bin
