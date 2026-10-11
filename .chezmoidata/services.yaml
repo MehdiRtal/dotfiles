@@ -4,8 +4,9 @@ services:
   - virtstoraged.socket
   - virtnetworkd.socket
   - tailscaled
+  - systemd-resolved
   - reflector.timer
   - paccache.timer
   - fstrim.timer
   - logrotate.timer
-  - systemd-resolved
+  - btrfs-scrub@-.timer

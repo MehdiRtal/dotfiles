@@ -1,19 +1,16 @@
 packages:
   - ark
-  - okular
   - haruna
   - gwenview
   - drawy
-  - featherpad
   - kdeconnect
   - yakuake
   - btop
-  - ldns
+  - bind
   - man-db
   - tealdeer
   - sshfs
   - rclone
-  - solaar
   - onlyoffice
   - tailscale
   - micro
@@ -46,9 +43,9 @@ packages:
   - lutris
   - senpai
   - opensc
-  - yubikey-manager
   - ventoy-bin
   - rustdesk-bin
   - qrca
   - reflector
   - logrotate
+  - deepfilternet-plus-bin
